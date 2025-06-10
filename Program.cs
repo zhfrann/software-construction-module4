@@ -28,7 +28,7 @@ class FanLaptop
             if (stateValue == 0)
             {
                 // Quiet
-                Console.Write($"\n[Status Saat ini: {stateValue}|{this.state}] Pilih mode kipas laptop: ");
+                Console.Write($"[Status Saat ini: {stateValue}|{this.state}] Pilih mode kipas laptop: ");
                 Console.WriteLine("[1] Balanced   [3] Turbo   [9] Exit");
                 Console.Write("> Menu: ");
                 nextState = Int32.Parse(Console.ReadLine());
@@ -59,7 +59,7 @@ class FanLaptop
             else if (stateValue == 1)
             {
                 // Balanced
-                Console.Write($"[Status Saat ini: {stateValue}|{this.state}] Pilih mode kipas laptop: ");
+                Console.Write($"\n[Status Saat ini: {stateValue}|{this.state}] Pilih mode kipas laptop: ");
                 Console.WriteLine("[0] Quiet   [2] Performance   [9] Exit");
                 Console.Write("> Menu: ");
                 nextState = Int32.Parse(Console.ReadLine());
@@ -90,7 +90,7 @@ class FanLaptop
             else if (stateValue == 2)
             {
                 // Performance
-                Console.Write($"[Status Saat ini: {stateValue}|{this.state}] Pilih mode kipas laptop: ");
+                Console.Write($"\n[Status Saat ini: {stateValue}|{this.state}] Pilih mode kipas laptop: ");
                 Console.WriteLine("[1] Balanced   [3] Turbo   [9] Exit");
                 Console.Write("> Menu: ");
                 nextState = Int32.Parse(Console.ReadLine());
@@ -121,7 +121,7 @@ class FanLaptop
             else if (stateValue == 3)
             {
                 // Turbo
-                Console.Write($"[Status Saat ini: {stateValue}|{state}] Pilih mode kipas laptop: ");
+                Console.Write($"\n[Status Saat ini: {stateValue}|{state}] Pilih mode kipas laptop: ");
                 Console.WriteLine("[2] Performance   [0] Quiet   [9] Exit");
                 Console.Write("> Menu: ");
                 nextState = Int32.Parse(Console.ReadLine());
